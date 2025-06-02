@@ -53,7 +53,7 @@ pub const Ulid = struct {
     /// Ensures monotonicity when timestamps are equal
     pub fn generateWithTimestamp(self: *Ulid, timestamp: u64) !void {
         if (timestamp > MAX_TIMESTAMP) {
-            std.debug.print("Error: Tiemstamp exceeds ULID limit (>{s})\n", .{MAX_TIMESTAMP_DATE});
+            std.debug.print("Error: Timestamp exceeds ULID limit (>{s})\n", .{MAX_TIMESTAMP_DATE});
             return UlidError.InvalidTimestamp;
         }
 
