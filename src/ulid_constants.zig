@@ -1,0 +1,4 @@
+pub const ULID_STRING_LENGTH = 26;
+pub const TIMESTAMP_LENGTH = 6; // 48 bits
+pub const RANDOM_LENGTH = 10; // 80 bits
+pub const TOTAL_BYTES = TIMESTAMP_LENGTH + RANDOM_LENGTH;
