@@ -6,7 +6,7 @@ Zig implementation of the [ulid][ulid] project, providing Universally Unique Lex
 
 # Usage
 
-See examples in main.zig for more details.
+See examples in example.zig for more details.
 
 # Benchmark
 
